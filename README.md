@@ -7,9 +7,13 @@
    * API from https://data.worldbank.org/indicator/SP.DYN.CBRT.IN
 ## 2.Describing the Data set
 The data set used in this project contains information about the release and sales of video games in 4 different regions (North America, EU, Japan, and others),
-as well as information about games genre and publishers, over the years from 1980 until 2020.
-contains a list of incidents reported as shark attacks.
-Their fields and data types are:
+as well as information about games genre and publishers, over the years from 1980 until 2020.  
+
+    * What is a video game?
+A video game is an electronic game that can be played on a computing device, such as a personal computer, gaming console. Depending on the platform, video games can be subcategorized into computer games and console games. In recent years, however, the emergence of social networks, smartphones and tablets introduced new categories such as mobile and social games. Video games have come a long way since the first games emerged in the 1970s. 
+Our dataset does not include mobile platform.  
+
+     * Dataset fields and data types are:
  - Rank - Ranking of overall sales, integer.
  - Name - The games name.
  - Platform - Platform of the games release (i.e. PC,Wii,PS2 etc.), object.
@@ -21,12 +25,13 @@ Their fields and data types are:
  - JP_Sales - Sales in Japan (in millions), float.
  - Other_Sales - Sales in the rest of the world (in millions), float.
  - Global_Sales - Total worldwide sales, float.
- - 
+
+
 ## 2.Analysis and visualization
+
 After going through a little bit of cleaning, which involved dropping missing data from publishers column, we start our analysis, and answering some questions.
 most importantly, how popular video games got over the years.
-  ** add table image **
-  
+
   - Which genre is the most popular?
     * Per release, sales, and region.
   - Which is the most popular platform?
@@ -35,14 +40,28 @@ most importantly, how popular video games got over the years.
       * Which year had the most sales?
       * In which region they got the most popular?
      
+![DF_overview](images/DF_overview.png)
     
-After answering the question above, we are crossing our dataset with data from World bank about birth rate using API,
+    
+After we answer the question above, we are going to the next step of this project, which is crossing our dataset with data from World bank about birth rate using API,
 we are going to look for some correlations between birth rate and video games popularity.
+
 ### Let's start with the questions
 ##### Genre
-the most popular genre is Action followed by sports globally ( Add percent )
-with sales action sports globally (add percent)
-Japan (RP and action)
+In 12 video game genre, the most popular one globally is Action followed by Sports.
+ - Action games releases represent 20% followed by Sports 14.14% of the global releases.
+
+
+![genre_most_games](images/genre_most_games.png)
+
+
+
+In the same collection of genre, the Action games are still the most popular followed by Sports games
+represent  of the global sales 
+  - Action games sales represent 19.55% followed by Sports	14.85% of the global sales.
+ 
+![genre_most_sales](images/genre_most_sales.png)
+
 
 ##### Platforms
 Which is the most popular platform?
