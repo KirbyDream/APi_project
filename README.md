@@ -38,7 +38,22 @@ most importantly, how popular video games got over the years.
     
 After answering the question above, we are crossing our dataset with data from World bank about birth rate using API,
 we are going to look for some correlations between birth rate and video games popularity.
-### Let's start with the first question
+### Let's start with the questions
+##### Genre
+the most popular genre is Action followed by sports globally ( Add percent )
+with sales action sports globally (add percent)
+Japan (RP and action)
+
+##### Platforms
+Which is the most popular platform?
+    * Per release, sales.
+    
+##### Video games poularity over the years '1980-2020'
+globally the most sales and releases were in the years between 2007 and 2010 gradually
+
+
+    
+
 
     
     
