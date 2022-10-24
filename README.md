@@ -50,6 +50,10 @@ Which is the most popular platform?
     
 ##### Video games poularity over the years '1980-2020'
 globally the most sales and releases were in the years between 2007 and 2010 gradually
+the year with the most releases and sales is 2008 followed by 2009
+with North America the region with the most popularity
+
+# Crossing Data using API
 
 
     
