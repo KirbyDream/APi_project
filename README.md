@@ -111,7 +111,8 @@ The data we are intested in, is the birth rate globally and per region ( accordi
 *For Japan birth rate --> https://api.worldbank.org/v2/country/JPN/indicator/SP.DYN.CBRT.IN?format=json.
 
 The idea here is comparing the evolution of video games popularity against the birth rate during same period of time.
-   **merge global with global birth rate per 1000 capita
+
+     **merge global with global birth rate per 1000 capita
  
 The following is a correlation between video game sales and birth rate per 1000 capita globally.
 
@@ -130,7 +131,7 @@ From looking at the correlation charts mentioned above, we can identify a certai
 
     
   
-  ![end_game](video_games_images/end_games.png)
+  ![end_game](video_games_images/end_game.png)
 
  
 
