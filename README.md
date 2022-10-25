@@ -52,8 +52,8 @@ In 12 video game genre, the most popular one globally is Action followed by Spor
  - Action games releases represent 20% followed by Sports 14.14% of the global releases.
 
 
-![genre_most_games](images/genre_most_games.png)
 
+![most_games](images/most_games.png)
 
 
 In the same collection of genre, the Action games are still the most popular followed by Sports games
@@ -62,25 +62,63 @@ represent  of the global sales
  
 ![genre_most_sales](images/genre_most_sales.png)
 
+Action games give players a chance to do and experience things that they may not have the chance to in real life, that's what makes them so popular in my opinion
 
 ##### Platforms
-Which is the most popular platform?
-    * Per release, sales.
-    
+
+The most popular platform in term of releases globally is DS ( Nintendo) followed by PS2 (Sony)
+DS      13.09%
+PS2     13.06%
+
+   ![platform_pop_games](images/platform_pop_games.png)
+   
+In term of sales PS2 is number one globally with 14% sales , compared to X360 ( by Microsoft) second that comes second with 11% sales
+PS2	  13.99%
+X360	11%
+
+
+   ![platform_most_sales](images/platform_most_sales.png)
+  
+
 ##### Video games poularity over the years '1980-2020'
-globally the most sales and releases were in the years between 2007 and 2010 gradually
+Globally the most sales and releases were in the years between 2007 and 2010 gradually
+
+![games_per_year](images/games_per_year.png)
+
 the year with the most releases and sales is 2008 followed by 2009
+
+
+![sales-per_year](images/sales-per_year.png)
+
 with North America the region with the most popularity
+
 
 # Crossing Data using API
 
+We are getting data from the website World Bank using API.
+The data we are intested in, is the birth rate globally and per region ( according to regions we have in our dataframe)
 
-    
+*For global birth rate --> https://api.worldbank.org/v2/country/WLD/indicator/SP.DYN.CBRT.IN?format=json.
+
+*For North America birth rate --> https://api.worldbank.org/v2/country/NAC/indicator/SP.DYN.CBRT.IN?format=json.
+
+*For EU rate --> https://api.worldbank.org/v2/country/EUU/indicator/SP.DYN.CBRT.IN?format=json.
+
+*For Japan birth rate --> https://api.worldbank.org/v2/country/JPN/indicator/SP.DYN.CBRT.IN?format=json.
+
+The idea here is comparing the evolution of video games popularity against the birth rate during same period of time.
+   **merge global with global birth rate per 1000 people
+
+![World_birth](images/World_birth.png)
 
 
-    
-    
-    
+
+
+
+
+
+ 
+
     
   
   
