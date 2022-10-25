@@ -108,14 +108,14 @@ The data we are intested in, is the birth rate globally and per region ( accordi
 
 The idea here is comparing the evolution of video games popularity against the birth rate during same period of time.
    **merge global with global birth rate per 1000 people
+   
+  <img width="208" alt="corr_birth_rate" src="https://user-images.githubusercontent.com/89549422/197725711-324405d7-fc61-4c78-aa15-09606ea48640.png">
 
 ![World_birth](images/World_birth.png)
 
 
 
-
-
-
+# Conclusion 
 
  
 
