@@ -5,7 +5,9 @@
 
 
 ## 1.Introduction
-- In this Readme file we're going through the analysis of a video games sales dataset, as well as enriching it with demographic data using API's.
+- In this Readme file we're going through the analysis of a video games sales dataset, as well as enriching it with demographic data using world bank's API, 
+so that we can establish any potential correlations between the two datasets.
+
 - the sources used for this analysis :
    * Dataset from  https://www.kaggle.com/datasets
    * API from https://data.worldbank.org/indicator/SP.DYN.CBRT.IN
@@ -19,7 +21,7 @@ Our dataset does not include mobile platform.
 
      * Dataset fields and data types are:
  - Rank - Ranking of overall sales.
- - Name - The games name.
+ - Name - The games title.
  - Platform - Platform of the games release (i.e. PC,Wii,PS2 etc.).
  - Year - Year of the game's release.
  - Genre - Genre of the game ,object.
@@ -33,8 +35,8 @@ Our dataset does not include mobile platform.
 
 ## 2.Analysis and visualization
 
-After going through a little bit of cleaning, which involved dropping missing data from publishers column, we start our analysis, and answering some questions.
-most importantly, how popular video games got over the years.
+After going through some cleaning, which mostly involved dropping null values from the dataset, we start our analysis, and answering some questions.
+Mainly, how popular video games got over the years in term of sales
 
   - Which genre is the most popular?
     * Per release, sales, and region.
@@ -76,9 +78,7 @@ PS2     13.06%
 
    ![platform_pop_games](images/platform_pop_games.png)
    
-In term of sales PS2 is number one globally with 14% sales , compared to X360 ( by Microsoft) second that comes second with 11% sales
-PS2	  13.99%
-X360	11%
+In term of sales PS2 is number one globally with 14% sales , compared to X360 ( by Microsoft) second that comes second with 11% sales.
 
 
    ![platform_most_sales](images/platform_most_sales.png)
@@ -111,9 +111,14 @@ The data we are intested in, is the birth rate globally and per region ( accordi
 *For Japan birth rate --> https://api.worldbank.org/v2/country/JPN/indicator/SP.DYN.CBRT.IN?format=json.
 
 The idea here is comparing the evolution of video games popularity against the birth rate during same period of time.
-   **merge global with global birth rate per 1000 people
+   **merge global with global birth rate per 1000 capita
+ 
+The following is a correlation between video game sales and birth rate per 1000 capita globally.
+
    
   <img width="208" alt="corr_birth_rate" src="https://user-images.githubusercontent.com/89549422/197725711-324405d7-fc61-4c78-aa15-09606ea48640.png">
+
+From correlating video game sales to birth rates we can identify a strong correlation between both indicators.
 
 ![World_birth](images/World_birth.png)
 
@@ -121,11 +126,12 @@ The idea here is comparing the evolution of video games popularity against the b
 
 # Conclusion 
 
- Although we did identify a correlation between birth rates and video games popularity, but at the end, more data should be collected and analyse to reach a more solid causation.
+From looking at the correlation charts mentioned above, we can identify a certain trend between the drop of birth rate and rise of video games sales, However, this might be only a lucky coincidence. More data should be collected and analysed in order to establish a causality link.
 
     
   
-  
+  ![end_game](video_games_images/end_games.png)
+
  
 
 
