@@ -1,8 +1,7 @@
 # Analysis and visualization of Video games sales dataset
 ## Selma Laarabi
 
-![Game_Devices](images/Game_Devices.jpg)
-
+![Game_Devices](video_games_images/Game_Devices.jpg )
 
 
 ## 1.Introduction
@@ -122,7 +121,7 @@ The idea here is comparing the evolution of video games popularity against the b
 
 # Conclusion 
 
- 
+ Although we did identify a correlation between birth rates and video games popularity, but at the end, more data should be collected and analyse to reach a more solid causation.
 
     
   
