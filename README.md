@@ -1,5 +1,10 @@
 # Analysis and visualization of Video games sales dataset
 ## Selma Laarabi
+
+![Game_Devices](images/Game_Devices.jpg)
+
+
+
 ## 1.Introduction
 - In this Readme file we're going through the analysis of a video games sales dataset, as well as enriching it with demographic data using API's.
 - the sources used for this analysis :
@@ -14,17 +19,17 @@ A video game is an electronic game that can be played on a computing device, suc
 Our dataset does not include mobile platform.  
 
      * Dataset fields and data types are:
- - Rank - Ranking of overall sales, integer.
+ - Rank - Ranking of overall sales.
  - Name - The games name.
- - Platform - Platform of the games release (i.e. PC,Wii,PS2 etc.), object.
- - Year - Year of the game's release, float.
+ - Platform - Platform of the games release (i.e. PC,Wii,PS2 etc.).
+ - Year - Year of the game's release.
  - Genre - Genre of the game ,object.
  - Publisher - Publisher of the game, object.
- - NA_Sales - Sales in North America (in millions), float.
- - EU_Sales - Sales in Europe (in millions), float.
- - JP_Sales - Sales in Japan (in millions), float.
- - Other_Sales - Sales in the rest of the world (in millions), float.
- - Global_Sales - Total worldwide sales, float.
+ - NA_Sales - Sales in North America (in millions).
+ - EU_Sales - Sales in Europe (in millions).
+ - JP_Sales - Sales in Japan (in millions).
+ - Other_Sales - Sales in the rest of the world (in millions).
+ - Global_Sales - Total worldwide sales.
 
 
 ## 2.Analysis and visualization
